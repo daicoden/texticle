@@ -30,7 +30,7 @@ class TexticleTestCase < Test::Unit::TestCase
 
         def table_name; 'fake_model'; end
 
-        def scope *args
+        def named_scope *args
           @named_scopes << args
         end
 
